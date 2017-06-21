@@ -1,0 +1,29 @@
+/* 
+  Localizable.strings
+  TuristInfo
+
+  Created by Apple on 15/03/2017.
+  Copyright © 2017 Apple. All rights reserved.
+*/
+"Main.title" = "";
+"Main.search.placeholder" = "Tastați pentru a căuta";
+"Main.downloadVideo" = "Descarca video";
+"Main.downloadAudio" = "Download audio";
+"Main.viewDetails" = "Vezi detalii";
+"Main.DrawRoute" = "Deseneaza traseu";
+"Main.cancel" = "Anulare";
+"Main.notification.title" = "Obiective apropiate";
+"Main.notification.zero" = "Nu s-au gasit obiective in 1000 m";
+"Main.noRoute" = "Nu a fost găsită nicio ruta";
+
+"Settings.title" = "Schimba limba";
+
+"Details.title" = "Detalii obiectiv";
+"Details.downloadVideo" = "Descarca video";
+"Details.downloadAudio" = "Descarca audio";
+
+"Main.DrawRoute_mode_driving" = "Cu masina";
+"Main.DrawRoute_mode_walking" = "Pe jos";
+"Main.DrawRoute_mode_bicycling" = "Cu bicicleta";
+"Main.DrawRoute_mode_transit" = "Transit";
+"Main.DrawRoute_mode_title" = "Alege o optiune";

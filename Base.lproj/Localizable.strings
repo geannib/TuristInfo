@@ -1,0 +1,28 @@
+/* 
+  Localizable.strings
+  TuristInfo
+
+  Created by Apple on 15/03/2017.
+  Copyright © 2017 Apple. All rights reserved.
+*/
+"Main.title" = "";
+"Main.search.placeholder" = "Type to search";
+"Main.downloadVideo" = "Download video";
+"Main.downloadAudio" = "Download audio";
+"Main.viewDetails" = "View details";
+"Main.DrawRoute" = "Draw route";
+"Main.DrawRoute_mode_driving" = "Driving";
+"Main.DrawRoute_mode_walking" = "Walking";
+"Main.DrawRoute_mode_bicycling" = "Bicycling";
+"Main.DrawRoute_mode_transit" = "Transit";
+"Main.DrawRoute_mode_title" = "Choose an option";
+"Main.cancel" = "Cancel";
+"Main.notification.title" = "Near objectives";
+"Main.notification.zero" = "There are no objectives in 1000 m";
+"Main.noRoute" = "No routes available";
+
+"Settings.title" = "Change language";
+
+"Details.title" = "Objective details";
+"Details.downloadVideo" = "Download video";
+"Details.downloadAudio" = "Download audio";

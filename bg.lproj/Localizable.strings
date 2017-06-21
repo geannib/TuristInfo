@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+  TuristInfo
+
+  Created by Apple on 15/03/2017.
+  Copyright © 2017 Apple. All rights reserved.
+*/
+"Main.title" = "";
+"Main.search.placeholder" = "Въведи за търсене";
+"Main.downloadVideo" = "Изтегляне на видео";
+"Main.downloadAudio" = "Изтегляне на аудио";
+"Main.viewDetails" = "Виж детайлите";
+"Main.DrawRoute" = "Draw маршрут";
+"Main.cancel" = "Отказ";
+"Main.notification.title" = "Близо цели";
+
+"Settings.title" = "Смени езика";
+
+"Details.title" = "Цел детайли";
+"Details.downloadVideo" = "Изтегляне на видеo";
+"Details.downloadAudio" = "Изтегляне на аудио";
+
+"Main.DrawRoute_mode_driving" = "Шофиране";
+"Main.DrawRoute_mode_walking" = "ходене";
+"Main.DrawRoute_mode_bicycling" = "колоездене";
+"Main.DrawRoute_mode_transit" = "транзит";
+"Main.DrawRoute_mode_title" = "Изберете опция";

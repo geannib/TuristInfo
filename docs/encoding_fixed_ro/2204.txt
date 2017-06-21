@@ -1,0 +1,5 @@
+Pe terenul pe care este construit complexul sportiv, există două zone distincte - stadion și centru sportiv cu piscină.
+  - Stadionul este format dintr-un teren de fotbal, pistă și tribune pentru spectatori.
+  - Sala multifunctionala de sport este proiectată pentru volei, baschet, handbal, tenis, și este capabilă să fie folosită și pentru alte sporturi și evenimente.
+  - Piscina este o parte a sălii de sport. Ea are dimensiunile de 25 / 12,50 metri.
+

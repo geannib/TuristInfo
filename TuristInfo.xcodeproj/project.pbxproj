@@ -1,0 +1,872 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		22056E911E81A1D500937C0D /* fullRoEn.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22056E901E81A1D500937C0D /* fullRoEn.csv */; };
+		22056E941E82B69500937C0D /* audio.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22056E921E82B69500937C0D /* audio.csv */; };
+		22056E951E82B69500937C0D /* video.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22056E931E82B69500937C0D /* video.csv */; };
+		220EBD301E71E3200032C4B1 /* Roboto-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220EBD2E1E71E3200032C4B1 /* Roboto-Medium.ttf */; };
+		220EBD311E71E3200032C4B1 /* Roboto-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220EBD2F1E71E3200032C4B1 /* Roboto-Regular.ttf */; };
+		220EBD331E71E6BD0032C4B1 /* Roboto-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 220EBD321E71E6BD0032C4B1 /* Roboto-Italic.ttf */; };
+		220EBD361E72C92E0032C4B1 /* TIObjectiveDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220EBD351E72C92E0032C4B1 /* TIObjectiveDetailsViewController.swift */; };
+		221461A41E73057D00FF3968 /* TISettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221461A31E73057D00FF3968 /* TISettingsViewController.swift */; };
+		221DCE7A1EF33F1600423282 /* footer2_en.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 221DCE791EF33F1600423282 /* footer2_en.jpg */; };
+		222093FA1E786EFB0046AD58 /* Localisator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 222093F91E786EFB0046AD58 /* Localisator.swift */; };
+		222094001E78BBC60046AD58 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 222094021E78BBC60046AD58 /* Localizable.strings */; };
+		222967961E80A7DA0096671A /* out2.txt in Resources */ = {isa = PBXBuildFile; fileRef = 222967951E80A7DA0096671A /* out2.txt */; };
+		228C8CD11E809A6B00FF04F6 /* split.txt in Resources */ = {isa = PBXBuildFile; fileRef = 228C8CD01E809A6700FF04F6 /* split.txt */; };
+		22A8043E1E700B0C00FF555D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8043D1E700B0C00FF555D /* AppDelegate.swift */; };
+		22A804401E700B0C00FF555D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8043F1E700B0C00FF555D /* ViewController.swift */; };
+		22A804431E700B0C00FF555D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 22A804411E700B0C00FF555D /* Main.storyboard */; };
+		22A804461E700B0C00FF555D /* TuristInfo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 22A804441E700B0C00FF555D /* TuristInfo.xcdatamodeld */; };
+		22A804481E700B0C00FF555D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 22A804471E700B0C00FF555D /* Assets.xcassets */; };
+		22A804561E700B0D00FF555D /* TuristInfoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A804551E700B0D00FF555D /* TuristInfoTests.swift */; };
+		22A804611E700B0D00FF555D /* TuristInfoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A804601E700B0D00FF555D /* TuristInfoUITests.swift */; };
+		22A8046F1E700F7E00FF555D /* TIMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A8046E1E700F7D00FF555D /* TIMapViewController.swift */; };
+		22A804751E7027A000FF555D /* TICustomMarker.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22A804741E7027A000FF555D /* TICustomMarker.xib */; };
+		22A804771E7027DA00FF555D /* TICustomMarker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A804761E7027DA00FF555D /* TICustomMarker.swift */; };
+		22AEA82D1EF2743E00195196 /* RO_BG_AudioGuideApp.png in Resources */ = {isa = PBXBuildFile; fileRef = 22AEA82C1EF2743E00195196 /* RO_BG_AudioGuideApp.png */; };
+		22B40AAF1EDF4F3800A9418C /* details in Resources */ = {isa = PBXBuildFile; fileRef = 22B40AAE1EDF4F3800A9418C /* details */; };
+		22C4A7DE1E959CD30070CA48 /* names_ro_en_bg.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22C4A7DD1E959CD20070CA48 /* names_ro_en_bg.csv */; };
+		22D178001EE8921600AB64B2 /* ic_location_point_white 3.png in Resources */ = {isa = PBXBuildFile; fileRef = 22D177FF1EE8921600AB64B2 /* ic_location_point_white 3.png */; };
+		22DD00C41E75D9630050E6F9 /* CENTRALIZARE-OBIECTIVE-ROMANIA.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22DD00C31E75D9630050E6F9 /* CENTRALIZARE-OBIECTIVE-ROMANIA.csv */; };
+		22DD00CE1E7723420050E6F9 /* zamzarFile3.csv in Resources */ = {isa = PBXBuildFile; fileRef = 22DD00CD1E7723420050E6F9 /* zamzarFile3.csv */; };
+		5FC7AE3312938A0B924C464E /* Pods_TuristInfoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5E236E84955D435BDB3817FD /* Pods_TuristInfoTests.framework */; };
+		6EB460D85656B249941D2B46 /* Pods_TuristInfo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D7F7A32CBA9E73CBBAD49957 /* Pods_TuristInfo.framework */; };
+		D8F8E65E1FD40F117721FAA4 /* Pods_TuristInfoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE46CACF2FCDBF91A84B8E1F /* Pods_TuristInfoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		22A804521E700B0D00FF555D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A804321E700B0C00FF555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A804391E700B0C00FF555D;
+			remoteInfo = TuristInfo;
+		};
+		22A8045D1E700B0D00FF555D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 22A804321E700B0C00FF555D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 22A804391E700B0C00FF555D;
+			remoteInfo = TuristInfo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		22056E901E81A1D500937C0D /* fullRoEn.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = fullRoEn.csv; path = ../../../SMS/Documents/fullRoEn.csv; sourceTree = "<group>"; };
+		22056E921E82B69500937C0D /* audio.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = audio.csv; path = docs/audio.csv; sourceTree = SOURCE_ROOT; };
+		22056E931E82B69500937C0D /* video.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = video.csv; path = docs/video.csv; sourceTree = SOURCE_ROOT; };
+		220EBD2E1E71E3200032C4B1 /* Roboto-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Medium.ttf"; path = "TuristInfo/Roboto/Roboto-Medium.ttf"; sourceTree = "<group>"; };
+		220EBD2F1E71E3200032C4B1 /* Roboto-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Regular.ttf"; path = "TuristInfo/Roboto/Roboto-Regular.ttf"; sourceTree = "<group>"; };
+		220EBD321E71E6BD0032C4B1 /* Roboto-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Italic.ttf"; path = "TuristInfo/Roboto/Roboto-Italic.ttf"; sourceTree = "<group>"; };
+		220EBD341E71E91F0032C4B1 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Roboto-Bold.ttf"; path = "TuristInfo/Roboto/Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		220EBD351E72C92E0032C4B1 /* TIObjectiveDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIObjectiveDetailsViewController.swift; sourceTree = "<group>"; };
+		221461A31E73057D00FF3968 /* TISettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TISettingsViewController.swift; sourceTree = "<group>"; };
+		221DCE791EF33F1600423282 /* footer2_en.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = footer2_en.jpg; path = Sigle/footer2_en.jpg; sourceTree = "<group>"; };
+		222093F91E786EFB0046AD58 /* Localisator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localisator.swift; sourceTree = "<group>"; };
+		222094011E78BBC60046AD58 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		222094031E78BBC90046AD58 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		222094051E78BBFC0046AD58 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Main.strings; sourceTree = "<group>"; };
+		222094081E78C4A10046AD58 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Main.strings; sourceTree = "<group>"; };
+		222094091E78C4A10046AD58 /* bg */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = bg; path = bg.lproj/Localizable.strings; sourceTree = "<group>"; };
+		2220940A1E78C68D0046AD58 /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Main.strings"; sourceTree = "<group>"; };
+		2220940C1E78C75A0046AD58 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		2220940F1E78CEBF0046AD58 /* ro-RO */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "ro-RO"; path = "ro-RO.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		222094101E78DD610046AD58 /* ro */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ro; path = ro.lproj/Localizable.strings; sourceTree = "<group>"; };
+		222967951E80A7DA0096671A /* out2.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = out2.txt; path = docs/out2.txt; sourceTree = SOURCE_ROOT; };
+		228C8CCE1E8058CA00FF04F6 /* bg-BG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bg-BG"; path = "bg-BG.lproj/Main.strings"; sourceTree = "<group>"; };
+		228C8CCF1E8058CA00FF04F6 /* bg-BG */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "bg-BG"; path = "bg-BG.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		228C8CD01E809A6700FF04F6 /* split.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = split.txt; path = docs/split.txt; sourceTree = SOURCE_ROOT; };
+		22A8043A1E700B0C00FF555D /* TuristInfo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TuristInfo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A8043D1E700B0C00FF555D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		22A8043F1E700B0C00FF555D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		22A804421E700B0C00FF555D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		22A804451E700B0C00FF555D /* TuristInfo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TuristInfo.xcdatamodel; sourceTree = "<group>"; };
+		22A804471E700B0C00FF555D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		22A8044C1E700B0C00FF555D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A804511E700B0D00FF555D /* TuristInfoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuristInfoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A804551E700B0D00FF555D /* TuristInfoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuristInfoTests.swift; sourceTree = "<group>"; };
+		22A804571E700B0D00FF555D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A8045C1E700B0D00FF555D /* TuristInfoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TuristInfoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		22A804601E700B0D00FF555D /* TuristInfoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TuristInfoUITests.swift; sourceTree = "<group>"; };
+		22A804621E700B0D00FF555D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		22A8046E1E700F7D00FF555D /* TIMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TIMapViewController.swift; sourceTree = "<group>"; };
+		22A804741E7027A000FF555D /* TICustomMarker.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TICustomMarker.xib; sourceTree = "<group>"; };
+		22A804761E7027DA00FF555D /* TICustomMarker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TICustomMarker.swift; sourceTree = "<group>"; };
+		22AEA82C1EF2743E00195196 /* RO_BG_AudioGuideApp.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = RO_BG_AudioGuideApp.png; path = Sigle/Wide/RO_BG_AudioGuideApp.png; sourceTree = "<group>"; };
+		22B40AAE1EDF4F3800A9418C /* details */ = {isa = PBXFileReference; lastKnownFileType = folder; path = details; sourceTree = SOURCE_ROOT; };
+		22C4A7DD1E959CD20070CA48 /* names_ro_en_bg.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = names_ro_en_bg.csv; sourceTree = SOURCE_ROOT; };
+		22D177FF1EE8921600AB64B2 /* ic_location_point_white 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ic_location_point_white 3.png"; sourceTree = "<group>"; };
+		22DD00BF1E75C9280050E6F9 /* da */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = da; path = da.lproj/Main.strings; sourceTree = "<group>"; };
+		22DD00C21E75D73F0050E6F9 /* CENTRALIZARE OBIECTIVE    ROMANIA.xlsx */ = {isa = PBXFileReference; lastKnownFileType = file; path = "CENTRALIZARE OBIECTIVE    ROMANIA.xlsx"; sourceTree = "<group>"; };
+		22DD00C31E75D9630050E6F9 /* CENTRALIZARE-OBIECTIVE-ROMANIA.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "CENTRALIZARE-OBIECTIVE-ROMANIA.csv"; sourceTree = "<group>"; };
+		22DD00CD1E7723420050E6F9 /* zamzarFile3.csv */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = zamzarFile3.csv; sourceTree = "<group>"; };
+		3099782CDD7D7DA70B5585E1 /* Pods-TuristInfo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfo/Pods-TuristInfo.debug.xcconfig"; sourceTree = "<group>"; };
+		330DE7E825C048E137B5A7EF /* Pods-TuristInfoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfoTests/Pods-TuristInfoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		422836BEF85918EF3E1BFACC /* Pods-TuristInfoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfoTests/Pods-TuristInfoTests.release.xcconfig"; sourceTree = "<group>"; };
+		5E236E84955D435BDB3817FD /* Pods_TuristInfoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuristInfoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93E190F5B7D116D19279D90F /* Pods-TuristInfo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfo.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfo/Pods-TuristInfo.release.xcconfig"; sourceTree = "<group>"; };
+		94AB743508CF2659CA3F3155 /* Pods-TuristInfoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfoUITests/Pods-TuristInfoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		999E3ED481095DD3ECD72750 /* Pods-TuristInfoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TuristInfoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TuristInfoUITests/Pods-TuristInfoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		CE46CACF2FCDBF91A84B8E1F /* Pods_TuristInfoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuristInfoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D7F7A32CBA9E73CBBAD49957 /* Pods_TuristInfo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TuristInfo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		22A804371E700B0C00FF555D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6EB460D85656B249941D2B46 /* Pods_TuristInfo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A8044E1E700B0D00FF555D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FC7AE3312938A0B924C464E /* Pods_TuristInfoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A804591E700B0D00FF555D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D8F8E65E1FD40F117721FAA4 /* Pods_TuristInfoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		220EBD2D1E71E3000032C4B1 /* font */ = {
+			isa = PBXGroup;
+			children = (
+				220EBD341E71E91F0032C4B1 /* Roboto-Bold.ttf */,
+				220EBD321E71E6BD0032C4B1 /* Roboto-Italic.ttf */,
+				220EBD2E1E71E3200032C4B1 /* Roboto-Medium.ttf */,
+				220EBD2F1E71E3200032C4B1 /* Roboto-Regular.ttf */,
+			);
+			name = font;
+			sourceTree = "<group>";
+		};
+		22A804311E700B0C00FF555D = {
+			isa = PBXGroup;
+			children = (
+				22AEA82C1EF2743E00195196 /* RO_BG_AudioGuideApp.png */,
+				221DCE791EF33F1600423282 /* footer2_en.jpg */,
+				22D177FF1EE8921600AB64B2 /* ic_location_point_white 3.png */,
+				222094021E78BBC60046AD58 /* Localizable.strings */,
+				222093F91E786EFB0046AD58 /* Localisator.swift */,
+				220EBD2D1E71E3000032C4B1 /* font */,
+				22A8043C1E700B0C00FF555D /* TuristInfo */,
+				22A804541E700B0D00FF555D /* TuristInfoTests */,
+				22A8045F1E700B0D00FF555D /* TuristInfoUITests */,
+				22A8043B1E700B0C00FF555D /* Products */,
+				5DC2CFAE1D6ED99F363E76FE /* Pods */,
+				8E1DAE585AAEC9FADF134BC8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		22A8043B1E700B0C00FF555D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				22A8043A1E700B0C00FF555D /* TuristInfo.app */,
+				22A804511E700B0D00FF555D /* TuristInfoTests.xctest */,
+				22A8045C1E700B0D00FF555D /* TuristInfoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		22A8043C1E700B0C00FF555D /* TuristInfo */ = {
+			isa = PBXGroup;
+			children = (
+				22B40AAE1EDF4F3800A9418C /* details */,
+				22C4A7DD1E959CD20070CA48 /* names_ro_en_bg.csv */,
+				22056E921E82B69500937C0D /* audio.csv */,
+				22056E931E82B69500937C0D /* video.csv */,
+				22056E901E81A1D500937C0D /* fullRoEn.csv */,
+				222967951E80A7DA0096671A /* out2.txt */,
+				228C8CD01E809A6700FF04F6 /* split.txt */,
+				22DD00CD1E7723420050E6F9 /* zamzarFile3.csv */,
+				22DD00C21E75D73F0050E6F9 /* CENTRALIZARE OBIECTIVE    ROMANIA.xlsx */,
+				22DD00C31E75D9630050E6F9 /* CENTRALIZARE-OBIECTIVE-ROMANIA.csv */,
+				22DD00B81E75BF670050E6F9 /* poze */,
+				22A8043D1E700B0C00FF555D /* AppDelegate.swift */,
+				22A8043F1E700B0C00FF555D /* ViewController.swift */,
+				22A804411E700B0C00FF555D /* Main.storyboard */,
+				221461A31E73057D00FF3968 /* TISettingsViewController.swift */,
+				22A804471E700B0C00FF555D /* Assets.xcassets */,
+				22A8044C1E700B0C00FF555D /* Info.plist */,
+				22A804441E700B0C00FF555D /* TuristInfo.xcdatamodeld */,
+				22A8046E1E700F7D00FF555D /* TIMapViewController.swift */,
+				22A804741E7027A000FF555D /* TICustomMarker.xib */,
+				22A804761E7027DA00FF555D /* TICustomMarker.swift */,
+				220EBD351E72C92E0032C4B1 /* TIObjectiveDetailsViewController.swift */,
+			);
+			path = TuristInfo;
+			sourceTree = "<group>";
+		};
+		22A804541E700B0D00FF555D /* TuristInfoTests */ = {
+			isa = PBXGroup;
+			children = (
+				22A804551E700B0D00FF555D /* TuristInfoTests.swift */,
+				22A804571E700B0D00FF555D /* Info.plist */,
+			);
+			path = TuristInfoTests;
+			sourceTree = "<group>";
+		};
+		22A8045F1E700B0D00FF555D /* TuristInfoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				22A804601E700B0D00FF555D /* TuristInfoUITests.swift */,
+				22A804621E700B0D00FF555D /* Info.plist */,
+			);
+			path = TuristInfoUITests;
+			sourceTree = "<group>";
+		};
+		22DD00B81E75BF670050E6F9 /* poze */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = poze;
+			sourceTree = "<group>";
+		};
+		5DC2CFAE1D6ED99F363E76FE /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3099782CDD7D7DA70B5585E1 /* Pods-TuristInfo.debug.xcconfig */,
+				93E190F5B7D116D19279D90F /* Pods-TuristInfo.release.xcconfig */,
+				330DE7E825C048E137B5A7EF /* Pods-TuristInfoTests.debug.xcconfig */,
+				422836BEF85918EF3E1BFACC /* Pods-TuristInfoTests.release.xcconfig */,
+				94AB743508CF2659CA3F3155 /* Pods-TuristInfoUITests.debug.xcconfig */,
+				999E3ED481095DD3ECD72750 /* Pods-TuristInfoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8E1DAE585AAEC9FADF134BC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D7F7A32CBA9E73CBBAD49957 /* Pods_TuristInfo.framework */,
+				5E236E84955D435BDB3817FD /* Pods_TuristInfoTests.framework */,
+				CE46CACF2FCDBF91A84B8E1F /* Pods_TuristInfoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		22A804391E700B0C00FF555D /* TuristInfo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A804651E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfo" */;
+			buildPhases = (
+				284D2EDC4EBC82679E61198A /* [CP] Check Pods Manifest.lock */,
+				22A804361E700B0C00FF555D /* Sources */,
+				22A804371E700B0C00FF555D /* Frameworks */,
+				22A804381E700B0C00FF555D /* Resources */,
+				8917EB1CDDAD717D6ADDAAE0 /* [CP] Embed Pods Frameworks */,
+				716DE0EEDC6A00B9A7CF44EC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TuristInfo;
+			productName = TuristInfo;
+			productReference = 22A8043A1E700B0C00FF555D /* TuristInfo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		22A804501E700B0D00FF555D /* TuristInfoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A804681E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfoTests" */;
+			buildPhases = (
+				145CB7BF2EE074EEE6FB96BC /* [CP] Check Pods Manifest.lock */,
+				22A8044D1E700B0D00FF555D /* Sources */,
+				22A8044E1E700B0D00FF555D /* Frameworks */,
+				22A8044F1E700B0D00FF555D /* Resources */,
+				699FC04C5817C7EDE811DCCA /* [CP] Embed Pods Frameworks */,
+				17D626FC1A95D0054107FC50 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A804531E700B0D00FF555D /* PBXTargetDependency */,
+			);
+			name = TuristInfoTests;
+			productName = TuristInfoTests;
+			productReference = 22A804511E700B0D00FF555D /* TuristInfoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		22A8045B1E700B0D00FF555D /* TuristInfoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 22A8046B1E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfoUITests" */;
+			buildPhases = (
+				7BEC1AE9835155038F2C059F /* [CP] Check Pods Manifest.lock */,
+				22A804581E700B0D00FF555D /* Sources */,
+				22A804591E700B0D00FF555D /* Frameworks */,
+				22A8045A1E700B0D00FF555D /* Resources */,
+				5E7CDA584553C6442AAC793A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				22A8045E1E700B0D00FF555D /* PBXTargetDependency */,
+			);
+			name = TuristInfoUITests;
+			productName = TuristInfoUITests;
+			productReference = 22A8045C1E700B0D00FF555D /* TuristInfoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		22A804321E700B0C00FF555D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = Apple;
+				TargetAttributes = {
+					22A804391E700B0C00FF555D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67899C4F9U;
+						ProvisioningStyle = Automatic;
+					};
+					22A804501E700B0D00FF555D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67899C4F9U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22A804391E700B0C00FF555D;
+					};
+					22A8045B1E700B0D00FF555D = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 67899C4F9U;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 22A804391E700B0C00FF555D;
+					};
+				};
+			};
+			buildConfigurationList = 22A804351E700B0C00FF555D /* Build configuration list for PBXProject "TuristInfo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				da,
+				ro,
+				bg,
+				"ro-RO",
+				ja,
+				"bg-BG",
+			);
+			mainGroup = 22A804311E700B0C00FF555D;
+			productRefGroup = 22A8043B1E700B0C00FF555D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				22A804391E700B0C00FF555D /* TuristInfo */,
+				22A804501E700B0D00FF555D /* TuristInfoTests */,
+				22A8045B1E700B0D00FF555D /* TuristInfoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		22A804381E700B0C00FF555D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				220EBD311E71E3200032C4B1 /* Roboto-Regular.ttf in Resources */,
+				22A804751E7027A000FF555D /* TICustomMarker.xib in Resources */,
+				221DCE7A1EF33F1600423282 /* footer2_en.jpg in Resources */,
+				22C4A7DE1E959CD30070CA48 /* names_ro_en_bg.csv in Resources */,
+				22D178001EE8921600AB64B2 /* ic_location_point_white 3.png in Resources */,
+				220EBD301E71E3200032C4B1 /* Roboto-Medium.ttf in Resources */,
+				22056E911E81A1D500937C0D /* fullRoEn.csv in Resources */,
+				222967961E80A7DA0096671A /* out2.txt in Resources */,
+				22A804481E700B0C00FF555D /* Assets.xcassets in Resources */,
+				222094001E78BBC60046AD58 /* Localizable.strings in Resources */,
+				22056E951E82B69500937C0D /* video.csv in Resources */,
+				220EBD331E71E6BD0032C4B1 /* Roboto-Italic.ttf in Resources */,
+				22DD00CE1E7723420050E6F9 /* zamzarFile3.csv in Resources */,
+				22DD00C41E75D9630050E6F9 /* CENTRALIZARE-OBIECTIVE-ROMANIA.csv in Resources */,
+				22AEA82D1EF2743E00195196 /* RO_BG_AudioGuideApp.png in Resources */,
+				22056E941E82B69500937C0D /* audio.csv in Resources */,
+				22B40AAF1EDF4F3800A9418C /* details in Resources */,
+				22A804431E700B0C00FF555D /* Main.storyboard in Resources */,
+				228C8CD11E809A6B00FF04F6 /* split.txt in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A8044F1E700B0D00FF555D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A8045A1E700B0D00FF555D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		145CB7BF2EE074EEE6FB96BC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		17D626FC1A95D0054107FC50 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuristInfoTests/Pods-TuristInfoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		284D2EDC4EBC82679E61198A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		5E7CDA584553C6442AAC793A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuristInfoUITests/Pods-TuristInfoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		699FC04C5817C7EDE811DCCA /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuristInfoTests/Pods-TuristInfoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		716DE0EEDC6A00B9A7CF44EC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuristInfo/Pods-TuristInfo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7BEC1AE9835155038F2C059F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8917EB1CDDAD717D6ADDAAE0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TuristInfo/Pods-TuristInfo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		22A804361E700B0C00FF555D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A804401E700B0C00FF555D /* ViewController.swift in Sources */,
+				222093FA1E786EFB0046AD58 /* Localisator.swift in Sources */,
+				22A804461E700B0C00FF555D /* TuristInfo.xcdatamodeld in Sources */,
+				22A8046F1E700F7E00FF555D /* TIMapViewController.swift in Sources */,
+				22A8043E1E700B0C00FF555D /* AppDelegate.swift in Sources */,
+				221461A41E73057D00FF3968 /* TISettingsViewController.swift in Sources */,
+				220EBD361E72C92E0032C4B1 /* TIObjectiveDetailsViewController.swift in Sources */,
+				22A804771E7027DA00FF555D /* TICustomMarker.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A8044D1E700B0D00FF555D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A804561E700B0D00FF555D /* TuristInfoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		22A804581E700B0D00FF555D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22A804611E700B0D00FF555D /* TuristInfoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		22A804531E700B0D00FF555D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A804391E700B0C00FF555D /* TuristInfo */;
+			targetProxy = 22A804521E700B0D00FF555D /* PBXContainerItemProxy */;
+		};
+		22A8045E1E700B0D00FF555D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 22A804391E700B0C00FF555D /* TuristInfo */;
+			targetProxy = 22A8045D1E700B0D00FF555D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		222094021E78BBC60046AD58 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				222094011E78BBC60046AD58 /* Base */,
+				222094031E78BBC90046AD58 /* en */,
+				222094091E78C4A10046AD58 /* bg */,
+				2220940F1E78CEBF0046AD58 /* ro-RO */,
+				222094101E78DD610046AD58 /* ro */,
+				228C8CCF1E8058CA00FF04F6 /* bg-BG */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		22A804411E700B0C00FF555D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				22A804421E700B0C00FF555D /* Base */,
+				22DD00BF1E75C9280050E6F9 /* da */,
+				222094051E78BBFC0046AD58 /* ro */,
+				222094081E78C4A10046AD58 /* bg */,
+				2220940A1E78C68D0046AD58 /* ro-RO */,
+				2220940C1E78C75A0046AD58 /* ja */,
+				228C8CCE1E8058CA00FF04F6 /* bg-BG */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		22A804631E700B0D00FF555D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		22A804641E700B0D00FF555D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		22A804661E700B0D00FF555D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3099782CDD7D7DA70B5585E1 /* Pods-TuristInfo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		22A804671E700B0D00FF555D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 93E190F5B7D116D19279D90F /* Pods-TuristInfo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		22A804691E700B0D00FF555D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 330DE7E825C048E137B5A7EF /* Pods-TuristInfoTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuristInfo.app/TuristInfo";
+			};
+			name = Debug;
+		};
+		22A8046A1E700B0D00FF555D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 422836BEF85918EF3E1BFACC /* Pods-TuristInfoTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TuristInfo.app/TuristInfo";
+			};
+			name = Release;
+		};
+		22A8046C1E700B0D00FF555D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 94AB743508CF2659CA3F3155 /* Pods-TuristInfoUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TuristInfo;
+			};
+			name = Debug;
+		};
+		22A8046D1E700B0D00FF555D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 999E3ED481095DD3ECD72750 /* Pods-TuristInfoUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 67899C4F9U;
+				INFOPLIST_FILE = TuristInfoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = geanni.personal.TuristInfoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TuristInfo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		22A804351E700B0C00FF555D /* Build configuration list for PBXProject "TuristInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A804631E700B0D00FF555D /* Debug */,
+				22A804641E700B0D00FF555D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A804651E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A804661E700B0D00FF555D /* Debug */,
+				22A804671E700B0D00FF555D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A804681E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A804691E700B0D00FF555D /* Debug */,
+				22A8046A1E700B0D00FF555D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		22A8046B1E700B0D00FF555D /* Build configuration list for PBXNativeTarget "TuristInfoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				22A8046C1E700B0D00FF555D /* Debug */,
+				22A8046D1E700B0D00FF555D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		22A804441E700B0C00FF555D /* TuristInfo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				22A804451E700B0C00FF555D /* TuristInfo.xcdatamodel */,
+			);
+			currentVersion = 22A804451E700B0C00FF555D /* TuristInfo.xcdatamodel */;
+			path = TuristInfo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 22A804321E700B0C00FF555D /* Project object */;
+}
